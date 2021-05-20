@@ -96,7 +96,7 @@ def get_arts (dict):
     art_list = [art for art in art_list if not re.search(r'p\d', art)]
     return art_list
 
-#TF-IDF Functions ########################################################################
+#TF-IDF Functions #########################################################################
 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
